@@ -7,6 +7,9 @@ gemspec
 gem 'amazon-ecs', '>= 2.2.1', :require => 'amazon/ecs'
 gem 'aws-s3', :require => 'aws/s3'
 
+# jquery-rails is used by the dummy application
+gem "jquery-rails"
+
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
 # Git. Remember to move these dependencies to your gemspec before releasing
