@@ -74,7 +74,7 @@ module EnjuAmazon
         if self.isbn.length == 10
           self.isbn
         elsif self.isbn.length == 13
-          ISBN_Tools.isbn13_to_isbn10(self.isbn)
+          Lisbn.new(self.isbn).isbn10
         end
       end
 
